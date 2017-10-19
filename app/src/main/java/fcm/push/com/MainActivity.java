@@ -24,6 +24,8 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
+/*It is a mainactivity*/
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private static final String TAG = MainActivity.class.getSimpleName();
     Button post;
