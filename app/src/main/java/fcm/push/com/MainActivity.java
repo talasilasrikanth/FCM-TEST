@@ -46,14 +46,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 message();
 
-//                new Thread(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        sendMsg();
-//                    }
-//                }).start();
-
-//                sendNotification();
                 break;
         }
     }
