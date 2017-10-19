@@ -26,6 +26,7 @@ public class FCMApplication extends Application {
     public void onCreate() {
         super.onCreate();
         mInstance = this;
+        // Firebase initialization
         FirebaseApp.initializeApp(this);
         mToken = FirebaseInstanceId.getInstance().getToken();
         Log.i(TAG,"mToken :: "+mToken);
